@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lobster&family=RocknRoll+One&display=swap');
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+.nav{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#logo{
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    bottom: 500px;
+    right: 1420px;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    width: 100px;
+}
+
+#logo-2{
+    position:absolute;
+    bottom:0px;
+    font-family: 'Lobster', cursive;
+}
+  
+#cred{
+    position:absolute;
+    bottom:0px;
+    left: 998px;
+    font-weight: lighter;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+*{
+background-color:lightblue;    
+}
+
+#profile{
+    position:absolute;
+    bottom: 300px;
+    left: 500px;
+    right: 1000px;
+    top: 300;
+    border-radius: 100px;
+}
+
+#about{
+    position:absolute;
+    bottom: 220px;
+    left: 525px;
+    width: 200px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#hi{
+    position:absolute;
+    bottom: 170px;
+    left: 470px;
+    width: 500px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#para{
+    position:absolute;
+    bottom: 140px;
+    left: 245px;
+    width: 900px;
+    font-family: 'RocknRoll One', sans-serif;
+}

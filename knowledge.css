@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lobster&family=RocknRoll+One&display=swap');
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+.nav{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#logo{
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    bottom: 500px;
+    right: 1420px;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    width: 100px;
+    height: 50px;
+}
+
+#logo-2{ 
+    position:absolute;
+    bottom:0%; 
+    padding: 0px;
+    font-family: 'Lobster', cursive; 
+} 
+
+    #cred{ 
+        position:absolute; 
+        bottom:0px; 
+        left: 940px; 
+        padding: 0px;
+        font-weight: lighter; 
+        font-family: 'Akaya Telivigala', cursive; 
+    }
+
+*{
+    background-color: rgb(233, 232, 156);
+}
+
+#flex{
+    display: flex;
+    flex-direction: row;
+}
+
+#masks{
+    margin-left: 150px;
+}
+
+#hands{
+    display: flex;
+    margin-left: 190px;
+    border-radius: 50%;
+}
+
+#mask{
+    border-radius: 50%;
+    margin-left: 210px;
+}
+
+#wear{
+    font-family: 'Lobster', cursive; 
+    margin-left: 250px;
+}
+
+#wash{
+    font-family: 'Lobster', cursive; 
+    text-align: center;
+    margin-left: 200px;
+}
+
+#covid{
+    font-family: 'Akaya Telivigala', cursive; 
+    width: 1000px;
+    margin-left: 160px;
+    font-size: xx-large;
+}
+
+#line{
+    font-family: 'RocknRoll One', sans-serif;
+    text-align: center;
+}
+
+.e{
+    font-family: 'Akaya Telivigala', cursive; 
+    width: 1000px;
+    margin-left: 390px;
+    font-size: xx-large;
+}

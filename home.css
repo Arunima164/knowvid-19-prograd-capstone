@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lobster&family=RocknRoll+One&display=swap');
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+body{
+    width: 100%;
+}
+
+.nav{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#logo{
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    bottom: 500px;
+    right: 1420px;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    width: 100px;
+}
+
+#logo-2{
+    position:absolute;
+    bottom:0px;
+    font-family: 'Lobster', cursive;
+}
+  
+#cred{
+    position:absolute;
+    bottom:0px;
+    left: 998px;
+    font-weight: lighter;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+*{
+background-color: lightpink;
+}
+
+#welcome{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#knowvid{
+    font-family: 'RocknRoll One', sans-serif;
+    width: 400px;
+    text-align: center;
+    margin-left: 440px;
+}
